@@ -22,7 +22,7 @@ yarn && yarn watch
 
 ## The Project
 
-The app you will build is a chat app. The goal is to demonstrate your ability to create interactive React components, respond to data flow, and work across comfortably across the stack.
+The app you will build is a chat app. The goal is to demonstrate your ability to create interactive React components, respond to data flow, and work comfortably across the stack.
 
 The chat app is designed to be a simple chat room that people can login to with just a first name, username, and email address. All messages will be broadcast to the full room.
 
@@ -50,18 +50,20 @@ The goal is not to check every box, but to demonstrate what you can do with the 
 ![Gandalf wisdom](https://images.squarespace-cdn.com/content/v1/5b43c205c3c16ab2868e3e80/1562359928493-7SCONEUNBBYXBI5PERAV/ke17ZwdGBToddI8pDm48kLN33MCaMri5_kQBC52hVftZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxl4eJ1_yh17i5W-8EZepd7i6cx6vuNmDP_l-samD14oL8qDRtH4rMNEwHpjJbhHkA/gandalf.gif)
 
 - [ ] Chat interface
-  - I can send a message
-  - I can receive messages
-  - My messages display in the chat room in a way that indicates they belong to me
-  - Messages from others display in the chat room in a way that indicates they belong to others
-- [ ] Emoji support
-  - I can send emoji
-  - I can receive emoji
-  - I can pick from a standard list of emoji to send to people
-- [ ] Slash commands
-  - I can enter a slash (`/`) followed by a command to execute a command
-  - I can pass arguments to the command to enhance the command
-  - **Note**: This can be anything you like and be as simple or complex as you like
-- [ ] Image support
-  - I can add an image to my chat messages
-  - I can receive images from other people's chats
+  - [ ] I can send a message
+  - [ ] I can receive messages
+  - [ ] My messages display in the chat room in a way that indicates they belong to me
+  - [ ] Messages from others display in the chat room in a way that indicates they belong to others
+- [ ] Additional Features
+  > You may pick any of the following:
+  - Slash Commands
+    - I can enter a slash `/` followed by a command to execute a command
+    - I can pass arguments to the command to enhance the command
+    - The structure for creating slash commands is reusable
+  - Emoji Support
+    - I can send and receive emoji
+    - I can pick a standard set of emoji from some sort of picker
+    - I can use colons `:` to select and send emoji
+  - Image Support
+    - I can send images
+    - I can receive images sent by other chat users
