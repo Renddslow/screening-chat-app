@@ -10939,11 +10939,6 @@ stack-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.2.tgz#33eba3897788558bebfc2db059dc158ec36cebb8"
   integrity sha512-MTX+MeG5U994cazkjd/9KNAapsHnibjMLnfXodlkXw76JEea0UiNzrqidzo1emMwk7w5Qhc9jd4Bn9TBb1MFwA==
 
-state-watcher@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/state-watcher/-/state-watcher-0.2.0.tgz#b1629dd318ab059612e86453e5cfa80d27da63cb"
-  integrity sha512-Dv7KvMQ2BOA+uKsEvd0xRE14dEjiKKqmt5DEwIJczxsn0WlZ9ghFHtGzFESCBojwbIVkV1X0spOA1hrKFf551g==
-
 static-extend@^0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"

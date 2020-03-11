@@ -20,7 +20,6 @@
     "sirv": "^0.4.2",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
-    "state-watcher": "^0.2.0",
     "styled-components": "4.4.0",
     "typescript": "^3.8.3",
     "utf-8-validate": "^5.0.2"

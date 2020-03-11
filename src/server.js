@@ -1,10 +1,8 @@
-const http = require('http');
-
 const polka = require('polka');
 const io = require('socket.io');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const createState = require('state-watcher'); // TODO: uninstall before flight
+const createState = require('state-watcher');
 
 const PORT = process.env.PORT || 8080;
 
@@ -33,5 +31,9 @@ io(server).on('connection', (sock) => {
   watcher.on('change', ['users'], (state, user) => {
     sock.broadcast.emit('user added', user[user.length - 1]);
     sock.username = user.username;
+  });
+
+  sock.on('disconnect', () => {
+    sock.broadcast.emit('leave', sock.username);
   });
 });
