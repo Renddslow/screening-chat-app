@@ -22,7 +22,7 @@ yarn && yarn watch
 
 ## The Project
 
-The app you will build is a chat app. The goal is to demonstrate your ability to create interactive React components, respond to data flow, and work comfortably across the stack.
+You will build a chat app. The goal is to demonstrate your ability to create interactive React components, respond to data flow, and work comfortably across the stack.
 
 The chat app is designed to be a simple chat room that people can login to with just a first name, username, and email address. All messages will be broadcast to the full room.
 
@@ -48,6 +48,8 @@ The following list of features should be approached _in order_. This should allo
 The goal is not to check every box, but to demonstrate what you can do with the time you are given.
 
 ![Gandalf wisdom](https://images.squarespace-cdn.com/content/v1/5b43c205c3c16ab2868e3e80/1562359928493-7SCONEUNBBYXBI5PERAV/ke17ZwdGBToddI8pDm48kLN33MCaMri5_kQBC52hVftZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxl4eJ1_yh17i5W-8EZepd7i6cx6vuNmDP_l-samD14oL8qDRtH4rMNEwHpjJbhHkA/gandalf.gif)
+
+**Treat this like you would a work project.** We want to see how you create maintainable and reusable code just as much as we want to see you build cool features.
 
 - [ ] Chat interface
   - [ ] I can send a message
