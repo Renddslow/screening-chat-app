@@ -40,6 +40,9 @@ The chat app is designed to be a simple chat room that people can login to with 
   - [x] Basic routing
   - [x] Client-side web socket set up
   - [x] Web Socket context provider for easy use
+- [x] Styling Tools
+  - [x] 💅 Styled Components
+  - [x] Sass Support (`import 'ComponentStyle.scss';`)
 
 ### What You'll Add
 

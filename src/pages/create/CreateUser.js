@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Input, Button } from '@wedgekit/core';
 import { useHistory } from 'react-router-dom';
 
 import './CreateUser.scss';
+import { UserContext } from '../../User';
 
 const CreateUser = () => {
   const [form, setForm] = useState({
@@ -11,12 +12,14 @@ const CreateUser = () => {
     email: '',
   });
   const [sending, setSending] = useState(false);
+  const user = useContext(UserContext);
 
   const history = useHistory();
 
   const createUser = async (e) => {
     e.preventDefault();
 
+    setSending(true);
     await fetch('http://localhost:8080/users', {
       method: 'POST',
       body: JSON.stringify({
@@ -30,6 +33,8 @@ const CreateUser = () => {
       },
     });
 
+    user.setUser(form);
+    setSending(false);
     history.push('/app');
   };
 
