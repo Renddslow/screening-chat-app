@@ -9,7 +9,7 @@
     "bufferutil": "^4.0.1",
     "cors": "^2.8.5",
     "fibers": "^4.0.2",
-    "node-sass": "^4.0.0",
+    "node-sass": "^7.0.0",
     "polka": "^0.5.2",
     "pupa": "^2.0.1",
     "react": "^16.13.0",
